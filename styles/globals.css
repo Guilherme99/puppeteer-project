@@ -14,3 +14,49 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ant-modal-footer {
+  display: none;
+}
+.ant-modal-header {
+  border-bottom: none;
+}
+.ant-modal-content {
+  height: 600px;
+}
+.ant-modal-body {
+  height: 500px !important;
+}
+.card {
+  height: 500px;
+}
+.ant-card-bordered,
+.ant-card-body {
+  border: none !important;
+  padding: 0 !important;
+}
+.ant-card-body {
+  height: 500px;
+  padding: 0;
+}
+.content img {
+  width: 90%;
+  margin: auto;
+}
+.title {
+  height: 60px;
+  color: #333;
+  line-height: 30px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background: red !important;
+}
+.ant-carousel .slick-dots li button {
+  background: #333 !important;
+}
